@@ -14,20 +14,22 @@ template = {
     "path": "../Galileo"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "vjqux/Blog-With-GitHub-Boilerplate@gh-pages"
 }
 
 # 站点设置
-site_name = "我的个人博客"
+site_name = "Gridea"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
-author = "熊猫小A"
+site_build_date = "2020-08-20T09:12+08:00"
+author = "vjqux"
 email = "hi@imalan.cn"
 author_homepage = "https://www.imalan.cn"
 description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+key_words = ['博客', 'blog', 'vjqux']
 language = 'zh-CN'
+external_links = []
+"""
 external_links = [
     {
         "name": "Maverick",
@@ -40,6 +42,8 @@ external_links = [
         "brief": "熊猫小A的主页。"
     }
 ]
+"""
+
 nav = [
     {
         "name": "首页",
@@ -58,6 +62,7 @@ nav = [
     }
 ]
 
+"""
 social_links = [
     {
         "name": "Twitter",
@@ -75,6 +80,7 @@ social_links = [
         "icon": "gi gi-weibo"
     }
 ]
+"""
 
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
